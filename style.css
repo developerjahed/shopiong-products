@@ -1,0 +1,31 @@
+img{
+    max-width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.product-content{
+    padding: 50px 0px;
+}
+.product-slider-short-images{
+    display: flex;
+    margin-top: 20px;
+}
+.product-slider-short-images img{
+  width: 150px;
+  border: 1px solid black;
+  margin: 5px;
+  cursor: pointer;
+  height: 150px;
+}
+.product-content-bottom{
+    margin-top: 20px;
+}
+#product-slider-image{
+    width: 500px;
+    height: 500px;
+}
